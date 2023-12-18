@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Last.fm App</title>
+  <link rel="stylesheet" href="music.css">
+</head>
+<body>
+   <div class = "header">
+<h1>Music Discovery</h1>
+</div>
+<main>
+  <div class="form">
+    <form id="postForm">
+       <label for="username">Song</label>
+       <input type="text" id="username" name="nameInput" required>
+       <label for="message">Description</label>
+       <textarea id="message" name="messageInput" rows="3" required></textarea>
+       <button id="send">POST</button>
+    </form>
+  </div>
+  <section class="container">
+    <label for="artistInput">Enter Artist Name:</label>
+    <input type="text" id="artistInput" placeholder="Type an artist name...">
+    <button id="button" >Search</button>
+  </section>
+
+  <div id="music"></div>
+  
+</main>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2023 Your Music Discovery App. All rights reserved. Powered by Last.fm</p>
+    </div>
+  </footer>
+
+ 
+</body>
+<script src="music.js"></script>
+</html>
